@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
 .box-layout {
   align-items: center;
-  background: url('/images/bg.jpg');
+  background: url('/images/blurbg.jpg');
   background-size: cover;
   display: flex;
   height: 100vh;
@@ -8,15 +10,15 @@
   width: 100vw;
 }
 
-.box-layout__box {
-  background: fade-out(white, .15);
-  border-radius: 3px;
-  padding: $l-size $m-size;
-  text-align: center;
-  width: 25rem;
-}
-
 .box-layout__title {
   margin: 0 0 $m-size 0;
   line-height: 1;
+  color: crimson;
+  font-size: 12rem;
+  font-family: 'Lobster', cursive;
+}
+
+.box-layout__subtitle {
+  color: white;
+  font-style: italic;
 }

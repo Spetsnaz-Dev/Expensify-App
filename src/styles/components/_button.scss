@@ -17,3 +17,22 @@
 .button--secondary {
   background: #888;
 }
+
+.button__login {
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  border-radius: 8px;
+  font-size: $font-size-large;
+  font-weight: 400;
+  line-height: 1;
+  padding: $m-size;
+  background: transparent;
+  :hover {
+    background-color: greenyellow !important;
+  }
+}
+.button__login:hover {
+  color: black;
+  opacity: 0.7;
+  background-color: greenyellow;
+}
