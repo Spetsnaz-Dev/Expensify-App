@@ -1,4 +1,4 @@
-# Git Commands
+# Getting Started Commands
 
 git init - Create a new git repo
 git status - View the changes to your project code
